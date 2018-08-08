@@ -1,6 +1,6 @@
-# Ethereum-based Voting App
+# Secure Voting Platform using Ethereum Blockchain
 
-There are a lots of problems with modern day election systems. Many people do not go to vote because they would have to wait in long queues at the polling booth. There are also cases of vote manipulation. For example, electronic voting machines can be hacked. In places where ballot boxes are used, although unlikely, counting mistakes can happen.
+There are lots of problems with modern day election systems. Many people do not particularly like to vote because they would have to wait in long queues at the polling booths. There are also cases of vote manipulation. For example, electronic voting machines can be hacked. In places where ballot boxes are used, although unlikely, counting mistakes can happen.
 In our college, elections are conducted on a web portal. The portal is accessible only using the computers of the Engineering Graphics Lab. For the duration of the election, network connections in all other parts of the college are disabled so that no one can hack into the portal and manipulate votes. This might be a necessary measure but it forces everyone to survive without internet for 4-5 hours. Moreover, everyone has to wait for 10-15 minutes outside the EG Lab before they can go inside and vote.
 A blockchain based solution can solve all these problems. Content once written on to a blockchain cannot be tampered in any way.  Also, all users of a blockchain can access it contents. This means that a voter can know for sure that he has voted for the intended candidate. Given these two features, we can now have a voting application on the internet without worrying about any attacks. This will allow people to vote from anywhere in the world and will significantly increase voter turnout.
 
@@ -277,3 +277,9 @@ You will have to create your own SSL certificate so that it works with your IP a
 **IMPORTANT**: Add a field IP.1 = 'your IP address' to v3.ext before generating the certificate.
 
 ***
+
+---
+
+---
+
+##### The above is a project done in a group of two including myself and Shaleen Bengani.
