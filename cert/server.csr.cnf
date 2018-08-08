@@ -1,0 +1,14 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = dn
+
+[dn]
+C=AE
+ST=Dubai
+L=Dubai
+O=Votechain
+OU=Random
+emailAddress=hello@example.com
+CN = localhost
