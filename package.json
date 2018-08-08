@@ -1,0 +1,30 @@
+{
+  "name": "blockchain_voting",
+  "version": "1.0.0",
+  "description": "Voting app",
+  "main": "run.js",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "express": "^4.16.3",
+    "express-mysql-session": "^1.3.0",
+    "express-session": "^1.15.6",
+    "ganache-cli": "^6.1.0",
+    "helmet": "^3.12.0",
+    "http-server": "^0.11.1",
+    "https": "^1.0.0",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.17.4",
+    "npm": "^6.0.1",
+    "solc": "^0.4.21",
+    "web3": "^0.20.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

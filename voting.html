@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>2018 Election</title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+  </head>
+  <body class="container">
+    <h1>A Simple Voting Application</h1>
+    <form id="choice" method="post" onsubmit="vote(); return false">
+      President:
+      <fieldset id="president">
+        <input type="radio" name="president" value="P1" id="ch1-1"><label for="ch1-1">Rama</label><br>
+        <input type="radio" name="president" value="P2" id="ch1-2"><label for="ch1-2">Nick</label><br>
+        <input type="radio" name="president" value="P3" id="ch1-3"><label for="ch1-3">Jose</label><br>
+      </fieldset>
+      Vice President:
+      <fieldset id="vicepresident">
+        <input type="radio" name="vicepresident" value="VP1" id="ch2-1"><label for="ch2-1">Ramu</label><br>
+        <input type="radio" name="vicepresident" value="VP2" id="ch2-2"><label for="ch2-2">Nicu</label><br>
+        <input type="radio" name="vicepresident" value="VP3" id="ch2-3"><label for="ch2-3">Josu</label><br>
+      </fieldset>
+      <button type="submit" class="btn btn-primary">Vote</a>
+    </form>
+  </body>
+  <script src="https://cdn.rawgit.com/ethereum/web3.js/develop/dist/web3.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+  <script src="./js/voting.js"></script>
+</html>
